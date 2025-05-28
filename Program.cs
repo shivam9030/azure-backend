@@ -13,7 +13,7 @@ builder.Services.AddCors(options =>
         policy.WithOrigins("https://frontend-azure-c4azd7fngvfadgdq.canadacentral-01.azurewebsites.net") // React dev server
               .AllowAnyMethod()
               .AllowAnyHeader();
-         .AllowCredentials());
+         .AllowCredentials();
     });
 });
 
