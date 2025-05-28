@@ -5,7 +5,7 @@
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": false,
-      "applicationUrl": "http://localhost:5070",
+      "applicationUrl": "https://netbackend-efeae5gcgad3hbf6.canadacentral-01.azurewebsites.net/order",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
