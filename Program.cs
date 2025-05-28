@@ -10,7 +10,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", policy =>
     {
-        policy.WithOrigins("https://frontend-azure-c4azd7fngvfadgdq.canadacentral-01.azurewebsites.net/") // React dev server
+        policy.WithOrigins("https://frontend-azure-c4azd7fngvfadgdq.canadacentral-01.azurewebsites.net") // React dev server
               .AllowAnyMethod()
               .AllowAnyHeader();
          .AllowCredentials());
